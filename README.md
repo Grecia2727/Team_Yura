@@ -7,3 +7,10 @@ Porque sabemos que no hay otro planeta Tierra y cuidar de nuestro ambiente es im
 
 
 ![Prototipo: Baja Calidad](https://github.com/GreciaGA/Team_Yura/blob/master/img/prototipo.jpeg)
+
+![Prototipo: Baja Calidad](https://github.com/GreciaGA/Team_Yura/blob/master/img/prototipo.jpeg)
+
+
+![Prototipo: Baja Calidad](https://github.com/GreciaGA/Team_Yura/blob/master/img/prototipo.jpeg)
+
+
