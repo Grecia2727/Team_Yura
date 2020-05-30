@@ -12,6 +12,7 @@ const container1 = document.getElementById('container1');
 const container2 = document.getElementById('container2');
 const registrarmeForm= document.getElementById('registrarme-form');
 const ingresarForm = document.getElementById('ingresar-form');
+const main = document.getElementById('main');
 
 btnYura.addEventListener('click', ()=>{
     container1.classList.add("hide");
@@ -32,7 +33,28 @@ btnIngresar.addEventListener('click',()=>{
     container1.classList.add("hide");
     container2.classList.add("hide");
     btnIngresar.classList.add("hide");
+    registrarmeForm.classList.replace("show","hide");
     ingresarForm.classList.replace('hide','show');
-
 })
+
+// Para ver el contenido principal
+ingresarBtnIngresar.addEventListener('click',()=>{
+    container1.classList.add("hide");
+    container2.classList.add("hide");
+    btnIngresar.classList.add("hide");
+    ingresarForm.classList.replace('show','hide');
+    registrarmeForm.classList.replace("show","hide");
+    main.classList.replace('hide','show');
+})
+
+// Para ver el contenido principal
+btnguardarDatos.addEventListener('click',()=>{
+    container1.classList.add("hide");
+    container2.classList.add("hide");
+    btnIngresar.classList.add("hide");
+    ingresarForm.classList.replace('show','hide');
+    registrarmeForm.classList.replace("show","hide");
+    main.classList.replace('hide','show');
+})
+
 
