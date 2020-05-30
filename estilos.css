@@ -36,10 +36,71 @@ body{
     width: 250px;
 }
 
-.container2-login{
+.container2-login {
     background-color: #7ED957;
     text-align: center;
     padding: 10px;
     margin: 15px;
     border-radius: 15px;
 }
+
+.container2-login:hover{
+    background-color: #618150;
+}
+
+/* Container Registrarme =============================== */
+.registrarme{
+    width: 350px;
+    margin: auto;
+}
+.registrarme-form{
+    display: flex;
+    flex-direction: column;
+    background-color: #7ED957;
+    text-align: center;
+    padding: 10px;
+    margin: 15px;
+    border-radius: 15px;
+}
+.registrarme-form--input{
+    margin: 15px;
+    padding: 15px;
+}
+
+
+/* Container Ingresar =============================== */
+.ingresar-form{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 350px;
+}
+.ingresar-container{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin: 15px;
+}
+
+.ingresar-container--input{
+    padding: 10px;
+    margin: 15px;
+}
+.ingresar-logo-login{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    width: 350px;
+    justify-content: center;
+}
+.ingresar-form--img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 2px solid #618150;
+    margin: 10px;
+}
+
+
+
+

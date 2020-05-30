@@ -7,19 +7,55 @@
     <link rel="stylesheet" href="estilos.css" class="rel">
 </head>
 <body>
+    <!-- diseño de la primera vista -->
     <div class="container1 show" id="container1">
         <img class="container1-img" id="btnYura" src="img/YURA.png" alt="">
     </div>
 
+    <!-- diseño de la segunda vista -->
     <div class="hide container2" id="container2">
         <div class="container2_div">
             <img class="container2-img" id="" src="img/YURA.png" alt="">
-            <div class="container2-login">Ingresar</div>
-            <div class="container2-login">Registrarme</div>
+            <div class="container2-login" id="ingresar">Ingresar</div>
+            <div class="container2-login" id="registrarme">Registrarme</div>
         </div>
         
     </div>
 
+    <!-- diseño del formulario REGISTRARME -->
+    <div class="registrarme hide" id="registrarme-form">
+        <div class="registrarme-form" >
+            <input type="text" class="registrarme-form--input" placeholder="Nombre">
+            <input type="text" class="registrarme-form--input" placeholder="Genero">
+            <input type="text" class="registrarme-form--input" placeholder="Fech Nacimiento">
+            <input type="text" class="registrarme-form--input" placeholder="Distrito">
+            <input type="text" class="registrarme-form--input" placeholder="Compromiso">
+            <div class="container2-login" id="guardar-datos">Registrarme</div>
+        </div>
+    </div>
+
+    <!-- diseño del formulario INGRESAR -->
+    <div class="ingresar hide" id="ingresar-form">
+        <div class="ingresar-form">
+            <img class="container2-img" id="" src="img/YURA.png" alt="">
+            <div class="ingresar-container">
+                <input type="email" class="ingresar-container--input" placeholder="Ingrese su usuario">
+                <input type="password" class="ingresar-container--input" placeholder="Ingrese su password">
+                <div class="container2-login" id="ingresar-btnIngresar">Ingresar</div>
+
+            </div>
+            <div class="ingresar-logo-login">
+                <img src="img/logo_gmail.jpeg" alt="" class="ingresar-form--img">
+                <img src="img/logo_face.png" alt="" class="ingresar-form--img">
+            </div>
+        </div>
+    </div>
+
+
+    <div class="main" id="main">
+        <!-- <h1> pagina principal</h1>
+        <img src="img/galeria_ok.jpg" alt=""> -->
+    </div>
          <!-- <div class="description">
             <p>
                 Porque sabemos que no hay otro planeta Tierra y cuidar de nuestro ambiente es imprescindible 
