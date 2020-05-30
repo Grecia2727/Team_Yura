@@ -1,0 +1,45 @@
+
+body{
+    width: 100vw;
+    height: 100%;
+    background-color: #FFFAE5;
+}
+.show{
+    display: block;
+}
+.hide{
+    display: none;
+}
+
+/* Container 1 =============================== */
+
+.container1,.container2, .container1-img,.container2-img{
+    margin: auto;
+    width: 350px;
+
+}
+.container1-img{
+    cursor: pointer;
+}
+.container1-img:hover{
+    /* border: 5px solid cadetblue; */
+    width: 380px;
+}
+
+/* Container 2 =============================== */
+.container2_div{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.container2-img{
+    width: 250px;
+}
+
+.container2-login{
+    background-color: #7ED957;
+    text-align: center;
+    padding: 10px;
+    margin: 15px;
+    border-radius: 15px;
+}
